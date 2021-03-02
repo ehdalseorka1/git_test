@@ -2,6 +2,8 @@ package main;
 
 import java.util.Scanner;
 
+import login.Login;
+
 public class Mainclass {
 	public static void main(String[] args) {
 		
@@ -16,6 +18,8 @@ public class Mainclass {
 			num = input.nextInt();
 			switch(num) {
 			case 1:
+				Login lo = new Login();
+				lo.login();
 				break;
 			case 2:
 				break;
